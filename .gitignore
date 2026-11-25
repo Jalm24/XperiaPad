@@ -1,0 +1,110 @@
+# Copyright (C) 2026 Jalm24
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Additional GPLv3 §7(b): preserve this attribution in modified copies.
+#
+# Política: en el repo solo entran fuentes, documentación, meta y scripts.
+# Todo lo generado, descargado, privado o temporal queda fuera.
+
+# ============================================================
+# Generados por src/build.sh / src/build-release.sh / ndk-build
+# ============================================================
+build/
+out/
+builds/
+gen/
+obj/
+.cxx/
+.externalNativeBuild/
+*.apk
+*.apks
+*.aab
+*.dex
+*.so
+*.o
+*.a
+*.class
+*.jar
+
+# ============================================================
+# Referencias descargadas, kernels, stack y snapshots locales
+# ============================================================
+download/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Artefacto histórico P1 (no usado; framework stock, no distribuir)
+meta/patch/
+
+# ============================================================
+# Claves, secretos y configuración local (nunca en el repo)
+# ============================================================
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.der
+*.csr
+*.p8
+*.pub
+*.secret
+*.env
+.env
+*.env.*
+local.properties
+keystore.properties
+signing/
+secrets/
+credentials/
+release.env
+
+# ============================================================
+# Logs y salidas de depuración
+# ============================================================
+*.log
+*.log.*
+logs/
+nohup.out
+core
+core.*
+*.trace
+*.hprof
+xpd
+xpdctl
+sdp_probe
+dbus_dev_probe
+
+# ============================================================
+# IDE, editor y sistema operativo
+# ============================================================
+.idea/
+.vscode/
+.settings/
+.gradle/
+.project
+.classpath
+*.iml
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.orig
+*.rej
+*.bak
+*.backup
+*.pyc
+__pycache__/

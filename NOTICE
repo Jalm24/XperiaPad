@@ -1,0 +1,58 @@
+XperiaPad — Xperia PLAY as a Bluetooth HID gamepad
+Copyright (C) 2026 Jalm24
+SPDX-License-Identifier: GPL-3.0-or-later
+
+XperiaPad implementation: HID daemon, UDS protocol, Android UI, build tooling
+and project documentation. Licensed under GNU GPLv3 (see LICENSE).
+
+Additional GPLv3 section 7(b) term: this author attribution must be preserved
+in modified source files and in the project's legal notices. This term applies
+only to material added by the XperiaPad project, not to third-party code below.
+
+-------------------------------------------------------------------------------
+Third-party code included in this distribution
+-------------------------------------------------------------------------------
+
+BlueZ 4.69 — licensed under GNU GPL version 2 or, at your option, any later
+version. Original copyright notices are preserved verbatim in the source files:
+
+    src/daemon/jni/bluetooth/bluetooth.h
+    src/daemon/jni/bluetooth.c
+    src/daemon/jni/bluetooth.h
+    src/daemon/jni/bluetooth/hci.h
+    src/daemon/jni/bluetooth/hci_lib.h
+    src/daemon/jni/bluetooth/hidp.h
+    src/daemon/jni/bluetooth/l2cap.h
+    src/daemon/jni/bluetooth/rfcomm.h
+    src/daemon/jni/bluetooth/sco.h
+    src/daemon/jni/bluetooth/sdp.h
+    src/daemon/jni/bluetooth/sdp_lib.h
+    src/daemon/jni/hci.c
+    src/daemon/jni/hci.h
+    src/daemon/jni/hci_lib.h
+    src/daemon/jni/hidp.h
+    src/daemon/jni/l2cap.h
+    src/daemon/jni/rfcomm.h
+    src/daemon/jni/sco.h
+    src/daemon/jni/sdp.c
+    src/daemon/jni/sdp.h
+    src/daemon/jni/sdp_lib.h
+    src/daemon/jni/sdp-xml.c
+    src/daemon/jni/sdp-xml.h
+
+    src/daemon/jni/config.h is minimal metadata derived from BlueZ 4.69.
+
+Original copyright holders include Qualcomm Incorporated, Maxim Krasnyansky,
+Marcel Holtmann, Nokia Corporation and Stephen Crane.
+
+-------------------------------------------------------------------------------
+Reference material not shipped in the APK
+-------------------------------------------------------------------------------
+
+The trees under download/ are research references only and keep their own
+licenses: the 2.6.32 Linux kernel and MissionControl (GPLv2), AOSP Gingerbread
+Bluetooth (GPLv2) and BTstack (non-commercial source license).
+
+Documentation quotes MissionControl (GPLv2) and preserves its attribution.
+
+See CREDITS.md (Spanish) and CREDITS-en.md (English) for human-readable acknowledgements.
